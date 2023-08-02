@@ -12,7 +12,7 @@ html, body {
   --color1: #0d151f;
   --color2: #141e30;
   --color3: #243b55;
-  --color4: #03e9f4;
+  --color4: #978327;
   --color5: #fff;
   --color6: rgba(0, 0, 0, 0);
 }
@@ -45,17 +45,18 @@ header {
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 200px;
+  height: 380px;
 }
 
 header .avatar {
   margin: 0 auto;
-  width: 80px;
-  height: 80px;
+  width: 120px;
+  height: 120px;
   border-radius: 50%;
   background-image: url(../images/avatar.jpg);
   background-size: contain;
-  box-shadow: 1.5px 1.5px 1.5px var(--color4);
+  padding: 5px;
+  border: 2px solid var(--color4);
 }
 
 header .description .text-description {
